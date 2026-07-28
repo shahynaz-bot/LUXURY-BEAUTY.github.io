@@ -19,6 +19,7 @@ section{
     background-size:cover;
     background-position:center;
     display:flex;
+    background-attachment: fixed;
     align-items:center;
     position:relative;
 }
