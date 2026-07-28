@@ -215,8 +215,8 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    border-color: var(--color-pink-dark);
-    box-shadow: 0 0 0 4px var(--color-pink);
+    border-color:grey;
+    box-shadow: 0 0 0 7px var(--shadow-soft);
 }
 
 textarea {
