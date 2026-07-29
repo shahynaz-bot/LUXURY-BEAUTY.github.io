@@ -301,3 +301,74 @@ details p {
     font-size: 14px;
     padding-inline-end: 30px;
 }
+@media (max-width: 768px) {
+    .contact-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px 100px;
+        gap: 30px;
+    }
+
+    .hero-text,
+    .hero-text p {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+        margin: -30px 15px 0;
+    }
+
+    .info-card {
+        border-inline-end: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.087);
+        padding: 30px 15px;
+    }
+
+    .info-card:last-child {
+        border-bottom: none;
+    }
+
+    .contact-form {
+        padding: 80px 20px 50px;
+    }
+
+    .form-content {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .faq {
+        padding: 50px 20px;
+    }
+
+    details {
+        padding: 20px 20px 20px 70px;
+    }
+
+    details::before {
+        font-size: 50px;
+        top: -10px;
+    }
+    .form-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-image img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+} 
