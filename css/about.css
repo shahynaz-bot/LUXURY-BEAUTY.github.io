@@ -209,4 +209,53 @@ blockquote {
 .promise-content p {
     font-size: 15px;
 }
+@media (max-width: 768px) {
+    .about-hero, 
+    .our-story, 
+    .gallery, 
+    .numbers, 
+    .promise {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .about-hero, 
+    .our-story {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content, 
+    .story-content, 
+    .promise-content,
+    .section-title {
+        max-width: 100%;
+    }
+
+    .about-image img, 
+    .story-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .numbers-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .about-content h1 {
+        font-size: 32px;
+    }
+
+    .story-content h2, 
+    .section-title h2, 
+    .promise-content h2 {
+        font-size: 26px;
+    }
+}
 
