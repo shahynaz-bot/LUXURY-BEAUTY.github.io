@@ -168,3 +168,46 @@ hr {
     color: var(--color-text-light);
     padding-top: 20px;
 }
+   @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+    }
+
+    .logo h2 {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 18px; 
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .icons {
+        gap: 15px;
+        margin-top: 5px;
+    }
+}
+
+    
+    footer{
+        padding:40px 30px 20px 30px;
+    }
+    .footer-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+
+    
